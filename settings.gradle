@@ -1,0 +1,7 @@
+rootProject.name = 'telemetry'
+
+include ':bc_one'
+project(':bc_one').projectDir = new File('src/bc_one')
+
+include ':shared'
+project(':shared').projectDir = new File('src/shared')
